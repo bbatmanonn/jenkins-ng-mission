@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MissionControlComponent } from './mission-control.component';
+import { AstronautComponent } from '../astronaut/astronaut.component';
 
 describe('MissionControlComponent', () => {
   let component: MissionControlComponent;
@@ -8,7 +9,7 @@ describe('MissionControlComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MissionControlComponent ]
+      declarations: [ MissionControlComponent, AstronautComponent ]
     })
     .compileComponents();
   }));
