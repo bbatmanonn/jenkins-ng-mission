@@ -15,7 +15,7 @@ pipeline {
         }
       }
     }
-    stage('error') {
+    stage('end') {
       steps {
         timestamps() {
           echo 'Complete!'
