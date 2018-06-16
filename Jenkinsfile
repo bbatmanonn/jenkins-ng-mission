@@ -15,9 +15,12 @@ pipeline {
         }
       }
     }
-    stage('') {
+    stage('error') {
       steps {
-        timestamps()
+        timestamps() {
+          echo 'Complete!'
+        }
+
       }
     }
   }
